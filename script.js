@@ -1,8 +1,14 @@
 // console.log("page loaded...");
 
-function changeText(){
-    document.getElementById("username").innerHTML = "Junie B. Jones"
+// change name when "edit profile" is clicked
+
+let nameChange = document.querySelector("#username")
+
+function changeText() {
+    nameChange.innerText = "Jacie Schumacher"
 }
+
+// increase connections and decrease requests based off which button is clicked. Also removes the line where the button is located.
 
 var count = 2
 var remove1 = document.querySelector('.badge1')
